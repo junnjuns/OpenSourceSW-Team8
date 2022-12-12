@@ -8,5 +8,5 @@ def copy():
     count = 0
     for i in tqdm.tqdm(range(len(output))):
         if output[i].endswith(".json"):
-            copyfile(output[i], f'/ano/{count}.json')
+            copyfile(output[i], f'./ano/{count}.json')
             count += 1

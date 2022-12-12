@@ -8,4 +8,4 @@ def copy():
 
     for i in tqdm.tqdm(output):
         if i.endswith(".jpg"):
-            copyfile(i, f'/images/{i.split("/")[-1]}')
+            copyfile(i, f'./images/{i.split("/")[-1]}')
